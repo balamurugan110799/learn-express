@@ -5,6 +5,7 @@ const userData = new mongoose.Schema({
         type: String,
         require: [true, "Name is required"]
     },
+    
     email: {
         type: String,
         require: [true, "Email is required"],
